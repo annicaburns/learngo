@@ -1,6 +1,9 @@
 package main
 
-import "annicaburns.com/hello/greeting"
+import (
+	"annicaburns.com/hello/goConcurrency"
+	"annicaburns.com/hello/greeting"
+)
 
 func main() {
 	greeting.PointerExample()
@@ -13,7 +16,7 @@ func main() {
 	// goInterfaces.PrintRenamable()
 	// goInterfaces.PrintWriterType()
 	// greeting.PrintVariadicGreet()
-	// goConcurrency.ConcurrencySelect()
+	goConcurrency.ConcurrencySelect()
 }
 
 /*
@@ -54,5 +57,12 @@ func main() {
     * len() will give you the count of elements in a slice
     * for (loops)
         * https://golang.org/doc/effective_go.html#for
-
+* Commands: https://golang.org/cmd/go/
+    * go build (compiles)
+    * go install (compiles and creates an executable file in the GOBIN directory
+        * in terminal, navigate to the directory that contains your main package and run this command with no params: go install
+        * from then on you can just run “go run” instead of “go run ./main.go"
+    * := declaration plus initialization
+* Package reference: https://golang.org/pkg/
+* Language Reference: https://golang.org/ref/spec
 */
