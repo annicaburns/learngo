@@ -63,6 +63,7 @@ func main() {
         * in terminal, navigate to the directory that contains your main package and run this command with no params: go install
         * from then on you can just run “go run” instead of “go run ./main.go" - can't get this to work
         * The name of executable is based on the parent directory name - not on the name of the main pkg go file
+        * (By convention, the package name is the same as the last element of the import path.)
     * := declaration plus initialization
 * Package reference: https://golang.org/pkg/
 * Language Reference: https://golang.org/ref/spec
