@@ -1,22 +1,22 @@
 package main
 
 import (
-	"annicaburns.com/hello/goConcurrency"
-	"annicaburns.com/hello/greeting"
+	"github.com/annicaburns/learngo/goSwitch"
+	"github.com/annicaburns/learngo/greeting"
 )
 
 func main() {
-	greeting.PointerExample()
-	// var sal = greeting.Salutation{Name: "Annica", Greeting: "Dearest"}
+	// greeting.PointerExample()
+	var sal = greeting.Salutation{Name: "Annica", Greeting: "Dearest"}
 	// fmt.Println(goSwitch.SwitchNothing())
-	// goSwitch.SwitchType(sal)
+	goSwitch.SwitchType(sal)
 	// goLoops.CollectionLoop()
 	// fmt.Println(goMaps.MapDelete("Jo"))
 	// goCollections.PrintSmallerSlice()
 	// goInterfaces.PrintRenamable()
 	// goInterfaces.PrintWriterType()
 	// greeting.PrintVariadicGreet()
-	goConcurrency.ConcurrencySelect()
+	// goConcurrency.ConcurrencySelect()
 }
 
 /*
@@ -61,7 +61,8 @@ func main() {
     * go build (compiles)
     * go install (compiles and creates an executable file in the GOBIN directory
         * in terminal, navigate to the directory that contains your main package and run this command with no params: go install
-        * from then on you can just run “go run” instead of “go run ./main.go"
+        * from then on you can just run “go run” instead of “go run ./main.go" - can't get this to work
+        * The name of executable is based on the parent directory name - not on the name of the main pkg go file
     * := declaration plus initialization
 * Package reference: https://golang.org/pkg/
 * Language Reference: https://golang.org/ref/spec

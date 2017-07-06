@@ -3,7 +3,7 @@ package goCollections
 import (
 	"fmt"
 
-	"annicaburns.com/hello/greeting"
+	"github.com/annicaburns/learngo/greeting"
 )
 
 // BasicArray demonstrates the characteristics and semantics of a GO array

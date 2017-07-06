@@ -3,7 +3,7 @@ package goSwitch
 import (
 	"fmt"
 
-	"annicaburns.com/hello/greeting"
+	"github.com/annicaburns/learngo/greeting"
 )
 
 // Cases can actually be expressions - the first one that evaluates to true will be executed

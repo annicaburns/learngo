@@ -3,7 +3,7 @@ package goLoops
 import (
 	"fmt"
 
-	"annicaburns.com/hello/greeting"
+	"github.com/annicaburns/learngo/greeting"
 )
 
 // GO has only one looping keyword (for), but it's not true that there is only one type of loop.

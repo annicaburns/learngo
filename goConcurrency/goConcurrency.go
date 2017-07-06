@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"annicaburns.com/hello/goInterfaces"
+	"github.com/annicaburns/learngo/goInterfaces"
 )
 
 // The concurrency problem around eggs - don't use the data to communicate information - don't share data
