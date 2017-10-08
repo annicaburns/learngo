@@ -52,7 +52,7 @@ func VendSalutations() (salutations Salutations) {
 	return
 }
 
-// this greet function is a method that operations on our named type - Salutations
+// this greet function is a method that operates on our named type - Salutations
 func (salutations Salutations) greet(isFormal bool) {
 	for _, s := range salutations {
 		var greeting = s.CasualGreeting
